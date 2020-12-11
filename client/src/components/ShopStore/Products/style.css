@@ -1,0 +1,104 @@
+.Content{
+    width: 85%;
+    border-top: 3px solid rgb(238, 182, 182);
+    margin: 0 auto;
+    border-left: 1px solid rgb(26, 21, 21);
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+	background-color: #00b7ff;
+
+} 
+
+h2 {
+    color: red;
+    font-weight:800!important;
+    font-size: 28 !important;
+}
+
+.ContentTitle{
+    text-align: center;
+    margin: 20px 0;
+}
+.CategoryTitle{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+
+.ProductArea{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Product{
+    width: 320px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px 10px 0;   
+    position:relative
+}
+.Product > .ProductImage{
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.Product > .ProductImage > img{
+    max-width: 100%;
+    height: 300px;
+}
+.ProductDetails{
+    margin: 20px 0;
+}
+
+.ContentBody{
+    display: flex;
+	flex-direction:wrap
+}
+.ContentBody .SideMenu{
+    flex: 2;
+}
+.ContentBody .MainContent{
+    flex: 8;
+}
+.SideMenu{
+    border: 1px solid #cecece;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background: rgb(193, 240, 124) !important;
+}
+.SideMenu .SideMenuTitle{
+    font-size: 18px;
+    border-bottom: 1px solid #cecece;
+    padding: 5px 10px;
+}
+.Filter .FilterTitle{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.SideMenu ul{
+    position: relative;
+}
+.SideMenu ul li{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.SideMenu > ul > li > a:nth-of-type(1){
+    font-weight: bold;
+
+}
+.FilterButton{
+    background: rgb(76, 201, 118);
+    border: 1px solid #cecece;
+    width: 95%;
+    margin: 2px 5px;
+    padding: 5px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}

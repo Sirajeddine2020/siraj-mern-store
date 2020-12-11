@@ -1,0 +1,11 @@
+.PriceWrapper{
+    width: 30%;
+    box-shadow: 0 0 2px 0px #cecece;
+    background-color: pink !important;
+    color: rebeccapurple
+}
+
+.FinalBilling {
+    background-color: turquoise !important; 
+    color: red
+}

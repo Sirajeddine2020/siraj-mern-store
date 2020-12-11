@@ -1,0 +1,11 @@
+h4 {
+   margin-left: 10 !important;
+    justify-content: center;
+}
+
+.heart {
+ display: flex;
+  justify-content:space-around ;
+  padding-bottom: 15px;
+  padding-top:15px;
+}

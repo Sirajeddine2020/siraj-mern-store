@@ -1,0 +1,36 @@
+.searchBar {
+
+    margin: 30px 2px;
+
+    display: flex;
+
+    justify-content: center;
+
+  }
+
+  .searchBar input {
+
+    width: 70%;
+
+    border-radius: 28px;
+
+    border: 2px solid rgb(226, 240, 207);
+
+    color: rgb(122, 245, 228);
+
+    padding: 9px 0 9px 9px;
+
+    margin-right: 10px;
+
+  }
+
+  .searchBar input:focus {
+
+    outline: 0;
+
+  }
+
+  .searchByrate {
+    
+    background-color: white !important;
+  }

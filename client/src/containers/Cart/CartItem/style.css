@@ -1,0 +1,27 @@
+.SingleItem{
+    background-image: linear-gradient(pink 40%, turquoise 30%, yellow: 20%, brown: 10%) !important;
+}
+
+.ItemWrapper{
+    display: flex;
+    padding: 20px;
+}
+.ItemDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+.ItemWrapper > .ItemDetails > .ItemName{
+    font-size: 18px;
+    font-weight:500;
+    color: rgb(172, 114, 59);
+}
+.ItemWrapper > .ItemDetails > .ItemPrice{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.CartActionButtons{
+    display: flex;
+}
